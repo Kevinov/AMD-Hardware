@@ -7,6 +7,7 @@ namespace AMD Hardware.Models
 {
     public class E_commerce
 {
+    public int E_commerceId { get; set; }
     public string Name { get; set; }
     public string WebAddress { get; set; }
     public int Hotline { get; set; }
