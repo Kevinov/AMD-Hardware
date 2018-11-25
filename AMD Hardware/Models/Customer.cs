@@ -13,5 +13,9 @@ namespace AMD Hardware.Models
     public string Email { get; set; }
     public int Credit_CardId { get; set; }
     public int ProductId { get; set; }
+    public Credit_Card _credit_Card { get; set; }
+    public Product _Product { get; set; }
+
+
 }
 }
